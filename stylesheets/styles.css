@@ -1,0 +1,258 @@
+body {
+	width: 1000px;
+	margin: auto;
+	background-image: url("../images/nightsky.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow: scroll;
+}
+
+/*HEADER*/
+
+header {height: 200px;}
+
+h1, h2, h3, h4, p {color: white;}
+	
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #cdcdb1;
+	border: 1px solid black;
+}
+
+.menu li {float: left;}
+
+.menu li a {
+	display: block;
+	width: 115px;
+	font-size: 115%;
+	border-left: 1px solid black;
+	color: black;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;	
+}
+
+.menu li a:hover {
+	background-color: #808080;
+	color: white;
+}
+
+.center {text-align: center;}
+
+#new {text-shadow: 2px 2px 8px #ffff00;}
+
+/*INDEX PAGE*/
+
+.topleft {
+	width: 495px;
+	float: left;
+	text-align: center;
+	line-height: 75%;
+}
+
+.topright {
+	float: right;
+	width: 495px;
+	text-align: center;
+}
+
+.botright {width: 495px;}
+
+.botleft {
+	text-align: center;
+	float: left;
+	width: 495px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+/*NOW PLAYING*/
+
+.listing {
+	margin-top: 0;
+	width: 495px;
+	height: 430px;
+	vertical-align: top;
+	padding: 20px;
+}
+
+.castlist {
+	float: left;
+	color: white;
+	margin-right: 70px;
+	line-height: 30%;
+}
+
+.actors {
+	color: white;
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	display: block;
+	line-height: 20%;
+}
+
+/*COMING SOON*/
+
+.grid {	margin-bottom: 50px;}
+
+.cslisting {
+	margin-top: 0;
+	padding-top: 0;
+	width: 332px;
+	height: 300px;
+}
+
+.cover {
+	margin-top: 25px;
+	border: 1px solid white;
+	float: left;
+}
+
+.actors {
+	margin-top: 0;
+	padding: 0;
+	color: white;
+	float: left;
+	line-height: 40%;
+	margin-left: 4px;
+	list-style: none;
+	font-size: 100%;
+}
+
+.director {
+	color: white;
+	float: left;
+	line-height: 2px;
+	font-size: 145%;
+}
+
+/*TICKETPURCHASE*/
+
+label {color: white;}
+
+.ticket {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+}
+
+.ticketform {
+    text-align: left;
+    height: 30px;
+}
+
+/*SNACKBAR*/
+
+#menuboard {margin: 75px 34px;}
+
+#menuleft {
+    width: 425px;
+    height: 700px;
+    background-color: #f2f2f2;
+    border-bottom: 20px solid #b30000;
+    border-left: 20px solid #b30000;
+    border-top: 20px solid #b30000;
+    float: left;
+    left: 50%;
+}
+
+#menuright {
+    width: 425px;
+    height: 700px;
+    background-color: #f2f2f2;
+    border: 20px solid #b30000;
+    float: left;
+
+}
+
+.black {color: black;}
+
+.holder {width: 40px;}
+
+/*PHOTOS*/
+
+#phototable {margin: auto;}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+}
+
+/*ABOUT US*/
+
+.aboutus {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/*GUESTBOOK*/
+
+table {
+    margin: auto;
+}
+
+td {
+    text-align: right;
+    color: white;
+}
+
+.top {
+    text-align: center;
+}
+
+.mid {
+    text-align: center;
+    color: white;
+}
+
+.bot {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+    height: 160px;
+
+}
+
+#antipiracy {
+    clear: left;
+    float: left;
+
+
+}
+
+/*#mpaa {
+    text-decoration: none;
+    width: 100px;
+    float: left;
+}
+*/
+#address {
+
+    margin-left: 245px;
+    font-size: 120%;
+    float: left;
+
+}
+
+#guestbook {
+    float: right;
+    margin-top: 20px;
+
+}
+
+
+

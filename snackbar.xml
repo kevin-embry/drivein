@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="menu2.xsl"?>
+
+
+<menu>
+	<menu_left>
+	
+		<food>
+			<item>Hamburger</item>
+			<price>$6.00</price>
+		</food>
+		
+		<food>
+			<item>Cheeseburger</item>
+			<price>$6.50</price>
+		</food>
+		
+		<food>
+			<item>Hot Dog</item>
+			<price>$4.00</price>
+		</food>
+		
+		<food>
+			<item>French Fries</item>
+			<price>$3.00</price>
+		</food>
+		
+		<food>
+			<item>Pretzel</item>
+			<price>$3.00</price>
+		</food>
+		
+		<food>
+			<item>6 Pc Chicken Nuggets</item>
+			<price>$4.00</price>
+		</food>
+		
+		<food>
+			<item>Pizza Slice</item>
+			<price>$3.50</price>
+		</food>
+	</menu_left>
+	
+	<menu_right>
+		<food>
+			<item>Popcorn Large</item>
+			<price>$6.00</price>
+		</food>
+		
+		<food>
+			<item>Popcorn Medium</item>
+			<price>$5.00</price>
+		</food>
+		
+		<food>
+			<item>Popcorn Small</item>
+			<price>$5.00</price>
+		</food>
+		
+		<food>
+			<item>Candy Bar</item>
+			<price>$2.00</price>
+		</food>
+		
+		<food>
+			<item>Fountain Soda</item>
+			<price>$2.50</price>
+		</food>
+		
+		<food>
+			<item>Bottled Water</item>
+			<price>$3.00</price>
+		</food>
+		
+		<food>
+			<item>Bottled Soda</item>
+			<price>$3.00</price>
+		</food>
+	</menu_right>
+</menu>	

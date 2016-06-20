@@ -1,0 +1,149 @@
+body {
+    width: 1000px;
+    margin: auto;
+    background-image: url("../images/nightsky.jpg");
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+    overflow: scroll;
+}
+
+header {
+    height: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cdcdb1;
+    border: 1px solid black;
+
+}
+
+.menu li {
+    float: left;
+
+}
+
+.menu li a {
+    display: block;
+    width: 115px;
+    font-size: 115%;
+    border-left: 1px solid black;
+
+    color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #1010aa;
+    color: white;
+}
+
+.whitetext {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+#new {
+    text-shadow: 2px 2px 8px #ffff00;
+
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top {
+    text-align: center;
+    color: white;
+}
+
+#menuboard {
+    margin: 75px 34px;
+
+}
+
+#menuleft {
+    width: 425px;
+    height: 700px;
+    background-color: #f2f2f2;
+    border-bottom: 20px solid #b30000;
+    border-left: 20px solid #b30000;
+    border-top: 20px solid #b30000;
+    float: left;
+    left: 50%;
+
+}
+
+#menuright {
+    width: 425px;
+    height: 700px;
+    background-color: #f2f2f2;
+    border: 20px solid #b30000;
+    float: left;
+    margin-left: 1px;
+}
+
+#food {
+    margin-left: 10px;
+}
+
+.holder {
+    width: 40px;
+}
+
+th {
+
+    font-size: 75%;
+    width: 120px;
+ 
+}
+
+td { text-align: center;}
+
+#foot {
+
+
+    float: right;
+    width: 1000px;
+    height: 125px;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 75px;
+}
+
+#container {
+    margin-top: 5px;
+
+}
+
+#container img {
+    float: left;
+}
+
+#container a {
+    text-wrap: wrap;
+    text-decoration: none;
+    color: yellow;
+    font-size: 70%;
+    position: relative;
+    float: left;
+    width: 110px;
+    margin-top: 15px;
+}
+
+#address {
+    float: right;
+    text-align: center;
+    width: 300px;
+    line-height: 80%;
+    margin-right: 350px;
+}
